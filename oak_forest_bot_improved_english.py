@@ -23,7 +23,7 @@ except ConnectionError as e:
     raise SystemExit("Cannot connect to MongoDB. Check MONGODB_URI.")
 
 # Bot token from environment variable
-TOKEN = os.getenv('TELEGRAM_TOKEN')
+TOKEN = os.getenv('8022340935:AAFaGFtUnTND3kPaoaWtaWyk7sLjuUEtvaE')
 if not TOKEN:
     logger.error("TELEGRAM_TOKEN not set in environment variables.")
     raise SystemExit("TELEGRAM_TOKEN is required.")
